@@ -1,0 +1,144 @@
+/* 
+========================================= 
+========================================= 
+
+Bootstrapious Boilerplate Template
+
+========================================= 
+========================================= */
+/*
+*
+* =====================
+* GENERAL
+* =====================
+*
+*/
+
+body {
+  color: #555;
+}
+
+p {
+  color: #555;
+}
+
+section {
+  padding: 60px 0;
+  position: relative;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+.text-shadow {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.text-300 {
+  font-weight: 300 !important;
+}
+
+.text-400 {
+  font-weight: 400 !important;
+}
+
+.text-500 {
+  font-weight: 500 !important;
+}
+
+/*
+*
+* =====================
+* NAVBAR
+* =====================
+*
+*/
+nav.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+  background: #fff;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+@media (max-width: 991.98px) {
+  nav.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+nav.navbar .navbar-brand {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  font-family: "Roboto Slab", serif;
+  color: #4fbfa8;
+  border: #4fbfa8 2px solid;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+nav.navbar a.nav-link {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 5px;
+  color: #777;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 4px solid transparent;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 991.98px) {
+  nav.navbar a.nav-link {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    border: none;
+  }
+}
+
+nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
+  color: #333;
+  border-top-color: #4fbfa8;
+}
+
+@media (max-width: 1199.98px) {
+  nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
+    color: #4fbfa8;
+  }
+}
+
+/*
+*
+* =====================
+* INTRO
+* =====================
+*
+*/
+.intro-section {
+  padding-top: 150px;
+  color: #fff;
+}
+
+.intro-section .logo, .intro-section p {
+  margin-bottom: 120px;
+}
+
+@media (min-width: 992px) {
+  .intro-section {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
