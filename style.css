@@ -1,12 +1,4 @@
 /* 
-========================================= 
-========================================= 
-
-Bootstrapious Boilerplate Template
-
-========================================= 
-========================================= */
-/*
 *
 * =====================
 * GENERAL
@@ -20,6 +12,14 @@ body {
 
 p {
   color: #555;
+}
+
+a:active, a:visited {
+  color: #4fbfa8;
+}
+
+a:hover {
+  color: #333;
 }
 
 section {
@@ -37,6 +37,7 @@ section {
 
 .text-shadow {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  font-family: "Roboto Slab", serif;
 }
 
 .text-300 {
@@ -49,6 +50,27 @@ section {
 
 .text-500 {
   font-weight: 500 !important;
+}
+
+.title {
+  display: inline-block;
+  font-size: 2.3rem;
+  font-weight: 100;
+  padding: 10px 0;
+  margin-bottom: 44px;
+  text-align: center;
+  border-bottom: solid 1px #4fbfa8;
+  border-top: solid 1px #4fbfa8;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 1.2;
+  color: #555;
+  margin-top: 20px;
+  letter-spacing: 0;
+}
+
+.title span {
+  font-size: 2.5rem;
 }
 
 /*
@@ -75,7 +97,7 @@ nav.navbar {
 nav.navbar .navbar-brand {
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-weight: 700;
+  font-weight: 700; 
   font-family: "Roboto Slab", serif;
   color: #4fbfa8;
   border: #4fbfa8 2px solid;
