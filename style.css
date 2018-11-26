@@ -188,10 +188,10 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   border: #7c9ca2 5px solid;
   display: flex;
   flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .softwares-section img {
@@ -212,23 +212,69 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
 }
 
 .skills-section .icon {
-  font-size: 3.5rem;
+  font-size: 2.8rem;
   text-shadow: 5px 5px 0 #3aa18c;
 }
 
 .skills-section p.description {
-  font-size: 0.9rem;
   color: #fff;
 }
 
 .btn-primary {
-  color: #212529;
+  color: #4fbfa8;
   background-color: #fff;
   border-color: #fff;
 }
 
 .btn-primary:hover {
-  color: #4fbfa8;
+  color: #212529;
   background-color: #fff;
   border-color: #fff;
+}
+
+/*
+*
+* =====================
+* PROJECTS
+* =====================
+*
+*/
+#filter {
+  text-align: center;
+  margin: 20px 0;
+  padding: 0;
+}
+
+#filter li {
+  display: inline-block;
+  list-style-type: none;
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 30px;
+  border-top: solid 1px #4fbfa8;
+  border-bottom: solid 1px #4fbfa8;
+  margin: 0 10px 20px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#filter li a {
+  display: inline-block;
+  padding: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #4fbfa8;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#filter li.active, #filter li:hover {
+  border: none;
+}
+
+#filter li.active a, #filter li:hover a {
+  color: #fff;
+  text-decoration: none;
+  background: #4fbfa8;
 }
