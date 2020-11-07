@@ -39,6 +39,23 @@ $(function() {
 			} else {
 					$('.go-top').slideUp(800);
 			}
-	});
+  });
 
+  // -- Send contact form -- //
+
+  $('#contact-form').submit(function(e){
+    $.ajax({
+        url:'/cgi-bin/mail',
+        type:'get',
+        data:$('#contact-form').serialize(),
+        success:function(){
+          alert("Su mensaje ha sido enviado");
+        }
+    });
+  });
+  
+  
 });
+
+
+
