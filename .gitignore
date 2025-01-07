@@ -13,4 +13,7 @@ node_modules
 # Ignora archivos de configuración SASS
 .sass-cache
 
-node_modules/
+node_modules
+.gitignore
+package.json
+package-lock.json
